@@ -134,7 +134,7 @@ form {
 }
 .support a {
     text-decoration: none;
-    color: #000;
+    color: rgba(43, 142, 235, 0.938);
     padding-right: 1rem;
 }
 footer {
